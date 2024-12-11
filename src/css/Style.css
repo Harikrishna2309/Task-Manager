@@ -48,7 +48,9 @@ button {
     padding: 10px;
     text-align: left;
 }
-
+.task-list{
+    width: 60%;
+}
 .modal {
     position: fixed;
     top: 0;
