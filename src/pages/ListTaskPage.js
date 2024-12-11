@@ -3,8 +3,8 @@ import TaskList from '../components/TaskList';
 
 const ListTaskPage = ({ tasks, onEditTask, onDeleteTask }) => {
     return (
-        <div>
-            <h2>Task List</h2>
+        <div className='d-flex-center'>
+            <h2 className='clr-beigh'>Task List</h2>
             <TaskList tasks={tasks} onEditTask={onEditTask} onDeleteTask={onDeleteTask} />
         </div>
     );
