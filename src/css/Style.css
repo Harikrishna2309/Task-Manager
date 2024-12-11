@@ -14,8 +14,21 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 60%;
 }
 
+@media (max-width: 768px) {
+    .add-task-form,
+.modal-content {
+    width: 95%;
+}
+}
+.d-flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 button {
     cursor: pointer;
     padding: 10px;
@@ -50,3 +63,31 @@ button {
     padding: 20px;
     border-radius: 5px;
 }
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+

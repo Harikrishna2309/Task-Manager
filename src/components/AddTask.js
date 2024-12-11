@@ -18,7 +18,8 @@ const AddTask = ({ onAddTask }) => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="add-task-form">
+        
+<form onSubmit={handleSubmit} className="add-task-form">
             <input
                 type="text"
                 placeholder="Task Title"
@@ -39,6 +40,8 @@ const AddTask = ({ onAddTask }) => {
             />
             <button type="submit">Add Task</button>
         </form>
+       
+        
     );
 };
 
