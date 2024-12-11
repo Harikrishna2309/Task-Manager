@@ -42,11 +42,11 @@
 
 @media (max-width: 768px) {
     .box-fit {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column; 
     }
 
     .box-fit img {
-        max-width: 100%; /* Ensure the image is responsive */
+        max-width: 100%;
         height: auto;
     }
 

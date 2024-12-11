@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/HomePage.css"; // Add custom styles here if needed
+import "../css/HomePage.css"; 
 import taskManagerImage from "../images/taskmanager.jpg";
 import { Row, Col } from "react-bootstrap";
 
@@ -34,7 +34,7 @@ const HomePage = () => {
         
       </Row>
 
-      {/* How to Use Section */}
+      
       <Row>
         <Col className="d-flex justify-content-center">
           
